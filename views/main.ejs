@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artista</title>
+  </head>
+  <body>
+    <h1>Be A Artista</h1>
+
+    <div>
+      <% for (let cont of content) { %>
+      <img src="<%= cont.imageUrl %>" alt="<%= cont.title %>" />
+      <h2><%= cont.title %></h2>
+      <p><%= cont.description %></p>
+      <h5><%= cont.time1 %>분 전 포스팅</h5>
+      <% } %>
+    </div>
+  </body>
+</html>

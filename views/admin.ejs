@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <h1>This is Admin Page</h1>
+    <form action="/admin/add-content" method="POST">
+      <div>
+        <input type="text" name="title" value="title" id="title" />
+      </div>
+      <div>
+        <input type="text" name="imageUrl" value="Put Image" id="imageUrl" />
+      </div>
+      <div>
+        <textarea name="description" id="description" rows="5"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
