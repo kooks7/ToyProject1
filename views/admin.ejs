@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin Page</title>
-  </head>
+<%- include('./includes/head.ejs') %>
+<link rel="stylesheet" href="/css/nav.css">
   <body>
+    <%- include('./includes/nav.ejs') %>
     <h1>This is Admin Page</h1>
     <form action="/admin/add-content" method="POST">
       <div>
